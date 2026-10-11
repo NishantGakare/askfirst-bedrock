@@ -38,7 +38,7 @@ export default function SituationInput({ onSubmit, loading = false, error = null
           </span>
         </div>
         <span className="text-xs text-[var(--color-muted)] hidden sm:block">
-          Phase 1 · sample data
+          Know what to ask.
         </span>
       </header>
 
