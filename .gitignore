@@ -1,0 +1,64 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+backend/.env
+*.env
+!.env.example
+
+# ── AWS ───────────────────────────────────────────────────────────────────────
+.aws/
+
+# ── Node / frontend ───────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Pytest ────────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.aws/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Generated files
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
